@@ -1,0 +1,20 @@
+# Grunt node_modules #
+######################
+node_modules/
+
+# SASS cache #
+######################
+.sass-cache/
+
+# IDE files #
+######################
+.idea/
+
+# files #
+######################
+static/*.zip
+
+# CSS files #
+######################
+css/*.css
+css/*.map

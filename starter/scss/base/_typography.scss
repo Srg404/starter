@@ -1,0 +1,28 @@
+/**
+ * Basic typography style for copy text
+ */
+
+html {
+  font-size: 62.5%; /* font-size 1rem = 10px */
+  & , body {
+    padding: 0; margin: 0;
+    height: 100%;
+  }
+}
+
+body {
+  color: $text-color;
+  font: normal 125% / 1.4 $text-font-stack;
+}
+
+::-moz-selection {
+  background: $text-color;
+  color: white;
+  text-shadow: none;
+}
+
+::selection {
+  background: $text-color;
+  color: white;
+  text-shadow: none;
+}

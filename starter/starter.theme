@@ -1,0 +1,9 @@
+<?php
+
+function starter_preprocess_page(&$variables) {
+  global $base_path;
+  $variables['logo'] = $base_path.drupal_get_path('theme','starter').'/logo.svg';
+
+  ##Uncomment this if you want to use png instead of svg image
+  $variables['logo'] = str_replace('.svg', '.png', $variables['logo']);
+}
